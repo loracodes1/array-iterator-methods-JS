@@ -51,6 +51,7 @@ const users = [
 function firstNamePrinter(collection) {
     for (const user of collection) {
       console.log(user.firstName);
+      console.log(user.personalQuote)
     }
   }
 
