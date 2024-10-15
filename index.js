@@ -48,3 +48,10 @@ const users = [
   ];
 
 //   We can iterate over that collection and print out everyone's first name as follows:
+function firstNamePrinter(collection) {
+    for (const user of collection) {
+      console.log(user.firstName);
+    }
+  }
+
+  firstNamePrinter(users);
