@@ -56,3 +56,15 @@ function firstNamePrinter(collection) {
   }
 
   firstNamePrinter(users);
+
+  // It's also not too difficult to print out only users whose favorite color is blue:
+
+function blueFilter(collection) {
+  for (const user of collection) {
+    if (user.favoriteColor === "Blue") {
+      console.log(user.firstName);
+    }
+  }
+}
+
+blueFilter(users);
