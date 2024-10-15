@@ -1,3 +1,5 @@
+// Imagine that we have a collection of Flatbook user objects in an array:
+
 const users = [
     {
       firstName: "Niky",
@@ -44,3 +46,5 @@ const users = [
         "Failure is not the opposite of success: it’s part of success",
     },
   ];
+
+//   We can iterate over that collection and print out everyone's first name as follows:
